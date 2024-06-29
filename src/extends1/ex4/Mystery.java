@@ -11,6 +11,7 @@ public class Mystery extends Book{
 
     //오버로딩 연습
     Mystery(int rank){
+        this.rank = rank;
         System.out.println("랭킹 : " + rank);
     }
 
